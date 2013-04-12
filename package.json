@@ -1,0 +1,17 @@
+{
+  "name": "node-yubikey",
+  "version": "0.0.0",
+  "description": "A Node.js client for verifying YubiKey OTPs",
+  "main": "index.js",
+
+  "scripts": {
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jedp/node-yubikey"
+  },
+  "author": "Jed Parsons <jed@jedparsons.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+}

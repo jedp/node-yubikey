@@ -1,0 +1,18 @@
+A Node.js client library for verifying OTPs with the Yubikey api servers.
+
+Usage:
+
+```javascript
+var yubikey = new(require('yubikey'));
+
+function onVerify(err) {
+  // if err is null, you're good
+}
+
+yubikey.verify('vvvvvvcurikvhjcvnlnbecbkubjvuittbifhndhn', onVerify);
+```
+
+## Resources
+
+- [YubiKey Validation Protocol 2.0](http://code.google.com/p/yubikey-val-server-php/wiki/ValidationProtocolV20)
+
