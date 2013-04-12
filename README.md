@@ -18,6 +18,10 @@ function onVerify(err) {
 yubikey.verify('vvvvvvcurikvhjcvnlnbecbkubjvuittbifhndhn', onVerify);
 ```
 
+## Testing
+
+Plug your YubiKey in, and run `./test.js`.  Try entering the same token twice.
+
 ## Resources
 
 - [YubiKey Validation Protocol 2.0](http://code.google.com/p/yubikey-val-server-php/wiki/ValidationProtocolV20)
