@@ -14,4 +14,9 @@
   "author": "Jed Parsons <jed@jedparsons.com>",
   "license": "MIT",
   "readmeFilename": "README.md",
+
+  "dependencies": {
+    "request": "2.16.6"
+  }
+
 }
