@@ -1,6 +1,12 @@
 A Node.js client library for verifying OTPs with the Yubikey api servers.
 
-Usage:
+## Install
+
+`npm install yubikey`
+
+Or fork this repo and help improve it.
+
+## Usage:
 
 ```javascript
 var yubikey = new(require('yubikey'));
