@@ -9,7 +9,10 @@ Or fork this repo and help improve it.
 ## Usage:
 
 ```javascript
-var yubikey = new(require('yubikey'));
+var Yubikey = require('yubikey');
+
+var yubikey = new Yubkey(client_id, secret_key);
+// client_id and secret_key can also be discovered from env
 
 function onVerify(err) {
   // if err is null, you're good
