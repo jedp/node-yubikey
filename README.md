@@ -11,7 +11,7 @@ Or fork this repo and help improve it.
 ```javascript
 var Yubikey = require('yubikey');
 
-var yubikey = new Yubkey(client_id, secret_key);
+var yubikey = new Yubikey(client_id, secret_key);
 // client_id and secret_key can also be discovered from env
 
 function onVerify(err) {
